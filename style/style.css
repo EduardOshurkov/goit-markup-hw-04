@@ -219,6 +219,26 @@ body {
   margin: -1px;
 }
 
+.about-social-list {
+  display: flex;
+  justify-self: center;
+  margin-bottom: 30px;
+}
+
+.about-social-item + .about-social-item {
+  margin-left: 30px;
+}
+
+.about-social-link {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
 .container-list {
   padding-top: -94px;
   display: flex;
@@ -236,6 +256,7 @@ body {
 
 .about-item,
 h3 {
+  max-width: 270px;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -245,6 +266,7 @@ h3 {
 }
 
 .about-text {
+  max-width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -310,8 +332,6 @@ h3 {
 
 .team-link {
   display: flex;
-  max-height: 368px;
-  /* padding-bottom: 94px; */
 }
 
 .team-list {
@@ -351,7 +371,24 @@ h3 {
 
 .about-team {
   padding-top: 30px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-link {
+  margin-top: 16px;
   padding-bottom: 30px;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #afb1b8;
 }
 
 /*----------------FOOTER---------------------*/
